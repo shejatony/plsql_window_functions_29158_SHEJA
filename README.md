@@ -1,10 +1,10 @@
 # SQL JOINs & Window Functions Project
 
 **Course:** Database Development with PL/SQL (INSY 8311)  
-**Student:** [Your Name]  
-**Student ID:** [Your Student ID]  
-**Group:** [A/B/C/D]  
-**Submission Date:** February 06, 2026
+**Student:** SHEJA Hugues Tony  
+**Student ID:** 29158 
+**Group:** Thursday Grp D
+**Submission Date:** February 08, 2026
 
 ---
 
