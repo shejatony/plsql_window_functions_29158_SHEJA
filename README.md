@@ -60,50 +60,7 @@ This project achieves five measurable analytical goals using window functions:
 
 ### Entity-Relationship Diagram
 
-```mermaid
-erDiagram
-    REGIONS ||--o{ CUSTOMERS : "located_in"
-    REGIONS ||--o{ PRODUCTS : "supplied_from"
-    CUSTOMERS ||--o{ TRANSACTIONS : "makes"
-    PRODUCTS ||--o{ TRANSACTIONS : "sold_in"
-    
-    REGIONS {
-        int region_id PK
-        varchar region_name
-        varchar region_code
-        varchar country
-        timestamp created_date
-    }
-    
-    CUSTOMERS {
-        int customer_id PK
-        varchar customer_name
-        varchar email
-        int region_id FK
-        date registration_date
-        varchar customer_segment
-    }
-    
-    PRODUCTS {
-        int product_id PK
-        varchar product_name
-        varchar category
-        decimal unit_price
-        int stock_quantity
-        int supplier_region_id FK
-        date launch_date
-    }
-    
-    TRANSACTIONS {
-        int transaction_id PK
-        int customer_id FK
-        int product_id FK
-        date transaction_date
-        int quantity
-        decimal total_amount
-        varchar payment_method
-    }
-```
+
 
 ### Table Descriptions
 
